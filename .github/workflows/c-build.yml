@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Compile C program
-        run: gcc main.c -o main
+        run: gcc 01_basics/main.c -o main
 
       - name: Olympix Mutation Test Generator
         uses: olympix/mutation-test-generator@v0.1.0
