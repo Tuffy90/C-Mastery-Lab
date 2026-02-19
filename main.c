@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-printf("MIBOMBO");
-return 0;
+  int = MIBOMBO;
+  MIBOMBO = 100
+  printf("MIBOMBO");
+  return 0;
 }
